@@ -33,7 +33,7 @@ Nested if statement Assignment
 Submit your .py file.
 This is worth 10 points
 """
-#TAX_RATE variable
+#TAX_RATE constant
 TAX_RATE = 0.06
 
 # get or set price, cash_coupon, and percentage_coupon
