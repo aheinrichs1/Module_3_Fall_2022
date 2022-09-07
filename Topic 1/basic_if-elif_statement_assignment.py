@@ -61,5 +61,20 @@ elif user_input == "5":  # Free trial
     print("The free trial has no cost!")
 elif user_input == "6":  # Exits program
     print("Exiting program")
-else:  # Also exits program with invalid input message
+else:  # Also exits program with invalid input message,
+    # catches any other input including other types!)
     print("Invalid user input, exiting program")
+
+# test cases
+# input: 1
+# expected: print("The price of the platinum membership is $60")
+# actual: print("The price of the platinum membership is $60")
+# input: 7
+# expected: print("Invalid user input, exiting program")
+# actual: print("Invalid user input, exiting program")
+# input: hello
+# expected: print("Invalid user input, exiting program")
+# actual: print("Invalid user input, exiting program")
+# input: 5
+# expected: print("The free trial has no cost!")
+# actual: print("The free trial has no cost!")
